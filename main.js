@@ -133,7 +133,7 @@ function initWorld() {
         map: texture
     });
 
-    IMAGE_LOADER.load('./world.jpg', (image) => {
+    IMAGE_LOADER.load('./world2.jpg', (image) => {
         texture.image = image;
         texture.needsUpdate = true;
     });

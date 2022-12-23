@@ -25,13 +25,45 @@
                 pointer-events: none;
             }
 
+            #snow1,
+            #snow2 {
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                height: 100%;
+                width: 100%;
+                background: url(https://curious-tarsier-734b3e.netlify.app/static/snow.png);
+                background-position: 0 0;
+            }
+            #snow1 {
+                background-size: 70em;
+                animation: snowfall 30s linear infinite;
+              }
+            @keyframes snowfall {
+            100% {
+                background-position: 70em 70em;
+            }
+            }
+            
+            #snow2 {
+            background-size: 50em;
+            animation: snowfall2 30s linear infinite;
+            opacity: 0.6;
+            }
+            
+            @keyframes snowfall2 {
+            100% {
+                background-position: 50em 50em;
+            }
+            }
+
         </style>
         <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Pacifico'>
     </head>
     <body>
         <div class='canvas-container'></div>
 
-        <div class='popup-3d'>С Новым Годом!</div>
+        <div class='popup-3d'>黄小仙女圣诞节🎄快乐呀！</div>
 
         <script src='https://unpkg.com/three@0.99.0/build/three.min.js'></script>
         <script src='https://unpkg.com/three@0.99.0/examples/js/loaders/OBJLoader.js'></script>
