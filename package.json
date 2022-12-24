@@ -1,0 +1,23 @@
+{
+  "name": "christmas-tree",
+  "version": "1.0.0",
+  "description": "forked from sfi0zy/christmas-tree",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knight392/christmas-tree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knight392/christmas-tree/issues"
+  },
+  "homepage": "https://github.com/knight392/christmas-tree#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
